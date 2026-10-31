@@ -1,0 +1,62 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Length 3328 >>
+stream
+BT /F2 17 Tf 0.090 0.290 0.200 rg 1 0 0 1 48.0 736.0 Tm (Soil Moisture Forecasting for Precision Agriculture) Tj ET
+BT /F2 9 Tf 0.390 0.460 0.410 rg 1 0 0 1 48.0 712.0 Tm (FULL PROJECT SYNOPSIS) Tj ET
+BT /F2 12 Tf 0.090 0.290 0.200 rg 1 0 0 1 48.0 684.0 Tm (Project Overview) Tj ET
+BT /F1 9.5 Tf 0.140 0.200 0.160 rg 1 0 0 1 48.0 667.0 Tm (Soil Moisture Forecasting for Precision Agriculture combines historical agricultural sensor) Tj ET
+BT /F1 9.5 Tf 0.140 0.200 0.160 rg 1 0 0 1 48.0 654.0 Tm (data, machine-learning forecasts, a Streamlit dashboard, and an ESP32/Wokwi demonstration to) Tj ET
+BT /F1 9.5 Tf 0.140 0.200 0.160 rg 1 0 0 1 48.0 641.0 Tm (support irrigation planning.) Tj ET
+BT /F2 12 Tf 0.090 0.290 0.200 rg 1 0 0 1 48.0 617.0 Tm (Data and Forecasting) Tj ET
+BT /F1 9.5 Tf 0.140 0.200 0.160 rg 1 0 0 1 48.0 600.0 Tm (Python scripts clean historical farm records, prepare time-based features, train forecasting) Tj ET
+BT /F1 9.5 Tf 0.140 0.200 0.160 rg 1 0 0 1 48.0 587.0 Tm (models, and evaluate saved predictions at 1-, 3-, and 6-hour horizons. The dashboard loads) Tj ET
+BT /F1 9.5 Tf 0.140 0.200 0.160 rg 1 0 0 1 48.0 574.0 Tm (existing trained artifacts; it does not retrain models at startup. Wokwi readings are) Tj ET
+BT /F1 9.5 Tf 0.140 0.200 0.160 rg 1 0 0 1 48.0 561.0 Tm (collected separately and are not mixed with historical training data.) Tj ET
+BT /F2 12 Tf 0.090 0.290 0.200 rg 1 0 0 1 48.0 537.0 Tm (Dashboard) Tj ET
+BT /F1 9.5 Tf 0.140 0.200 0.160 rg 1 0 0 1 48.0 520.0 Tm (The six-page Streamlit dashboard presents a farm overview, soil-moisture predictions,) Tj ET
+BT /F1 9.5 Tf 0.140 0.200 0.160 rg 1 0 0 1 48.0 507.0 Tm (visualizations, model-performance comparisons, irrigation recommendations, and recorded) Tj ET
+BT /F1 9.5 Tf 0.140 0.200 0.160 rg 1 0 0 1 48.0 494.0 Tm (Wokwi data. Recommendations are decision support: the dashboard does not directly control) Tj ET
+BT /F1 9.5 Tf 0.140 0.200 0.160 rg 1 0 0 1 48.0 481.0 Tm (the simulator or irrigation hardware.) Tj ET
+BT /F2 12 Tf 0.090 0.290 0.200 rg 1 0 0 1 48.0 457.0 Tm (ESP32 and Wokwi Demonstration) Tj ET
+BT /F1 9.5 Tf 0.140 0.200 0.160 rg 1 0 0 1 48.0 440.0 Tm (The ESP32 reads or simulates soil moisture, temperature, and air humidity. At firmware) Tj ET
+BT /F1 9.5 Tf 0.140 0.200 0.160 rg 1 0 0 1 48.0 427.0 Tm (defaults, moisture below 30% activates the relay and red dry-condition LED; moisture above) Tj ET
+BT /F1 9.5 Tf 0.140 0.200 0.160 rg 1 0 0 1 48.0 414.0 Tm (70% turns on the yellow wet-condition LED. The circuit is described in diagram.json. A) Tj ET
+BT /F1 9.5 Tf 0.140 0.200 0.160 rg 1 0 0 1 48.0 401.0 Tm (Python serial collector stores simulator readings in a separate CSV.) Tj ET
+BT /F2 12 Tf 0.090 0.290 0.200 rg 1 0 0 1 48.0 377.0 Tm (Key Files) Tj ET
+BT /F1 9.5 Tf 0.140 0.200 0.160 rg 1 0 0 1 48.0 360.0 Tm (Firmware: src/main.cpp | Circuit: diagram.json | Dashboard: dashboard/app.py | Collector:) Tj ET
+BT /F1 9.5 Tf 0.140 0.200 0.160 rg 1 0 0 1 48.0 347.0 Tm (backend/collect_hardware_data.py | Model training: backend/train_model.py | Model) Tj ET
+BT /F1 9.5 Tf 0.140 0.200 0.160 rg 1 0 0 1 48.0 334.0 Tm (evaluation: backend/evaluate_model.py) Tj ET
+BT /F1 8 Tf 0.390 0.460 0.410 rg 1 0 0 1 48.0 310.0 Tm (Forecasts and simulated readings should be interpreted with local agronomic knowledge.) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000266 00000 n 
+0000003646 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3782
+%%EOF
